@@ -1,0 +1,175 @@
+2025-03-14 18:54:29,706 - INFO - Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+2025-03-14 18:54:53,154 - INFO - Enabling LoRA for all modules
+2025-03-14 18:54:53,439 - INFO - Sample 7220 of the training set: {'input_ids': [2, 243, 16, 5240, 3859, 14, 2708, 40, 4], 'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1], 'labels': 0}.
+2025-03-14 18:54:53,439 - INFO - Sample 1914 of the training set: {'input_ids': [2, 387, 2013, 8211, 23598, 19, 255, 5270, 4], 'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1], 'labels': 1}.
+2025-03-14 18:54:53,440 - INFO - Sample 122 of the training set: {'input_ids': [2, 133, 4851, 24, 10863, 6, 141, 203, 3845, 10, 3041, 109, 47, 192, 11, 5, 4908, 116], 'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'labels': 1}.
+2025-03-14 18:54:53,443 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,443 - INFO - model.decoder.layers.0.self_attn.k_proj
+2025-03-14 18:54:53,443 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,443 - INFO - model.decoder.layers.0.self_attn.v_proj
+2025-03-14 18:54:53,443 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,443 - INFO - model.decoder.layers.0.self_attn.q_proj
+2025-03-14 18:54:53,443 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,443 - INFO - model.decoder.layers.1.self_attn.k_proj
+2025-03-14 18:54:53,443 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,443 - INFO - model.decoder.layers.1.self_attn.v_proj
+2025-03-14 18:54:53,443 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,443 - INFO - model.decoder.layers.1.self_attn.q_proj
+2025-03-14 18:54:53,443 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,443 - INFO - model.decoder.layers.2.self_attn.k_proj
+2025-03-14 18:54:53,443 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,443 - INFO - model.decoder.layers.2.self_attn.v_proj
+2025-03-14 18:54:53,443 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,443 - INFO - model.decoder.layers.2.self_attn.q_proj
+2025-03-14 18:54:53,443 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,443 - INFO - model.decoder.layers.3.self_attn.k_proj
+2025-03-14 18:54:53,443 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,443 - INFO - model.decoder.layers.3.self_attn.v_proj
+2025-03-14 18:54:53,443 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,443 - INFO - model.decoder.layers.3.self_attn.q_proj
+2025-03-14 18:54:53,443 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,443 - INFO - model.decoder.layers.4.self_attn.k_proj
+2025-03-14 18:54:53,443 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,443 - INFO - model.decoder.layers.4.self_attn.v_proj
+2025-03-14 18:54:53,443 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,443 - INFO - model.decoder.layers.4.self_attn.q_proj
+2025-03-14 18:54:53,443 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,443 - INFO - model.decoder.layers.5.self_attn.k_proj
+2025-03-14 18:54:53,444 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,444 - INFO - model.decoder.layers.5.self_attn.v_proj
+2025-03-14 18:54:53,444 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,444 - INFO - model.decoder.layers.5.self_attn.q_proj
+2025-03-14 18:54:53,444 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,444 - INFO - model.decoder.layers.6.self_attn.k_proj
+2025-03-14 18:54:53,444 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,444 - INFO - model.decoder.layers.6.self_attn.v_proj
+2025-03-14 18:54:53,444 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,444 - INFO - model.decoder.layers.6.self_attn.q_proj
+2025-03-14 18:54:53,444 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,444 - INFO - model.decoder.layers.7.self_attn.k_proj
+2025-03-14 18:54:53,444 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,444 - INFO - model.decoder.layers.7.self_attn.v_proj
+2025-03-14 18:54:53,444 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,444 - INFO - model.decoder.layers.7.self_attn.q_proj
+2025-03-14 18:54:53,444 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,444 - INFO - model.decoder.layers.8.self_attn.k_proj
+2025-03-14 18:54:53,444 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,444 - INFO - model.decoder.layers.8.self_attn.v_proj
+2025-03-14 18:54:53,444 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,444 - INFO - model.decoder.layers.8.self_attn.q_proj
+2025-03-14 18:54:53,444 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,444 - INFO - model.decoder.layers.9.self_attn.k_proj
+2025-03-14 18:54:53,444 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,444 - INFO - model.decoder.layers.9.self_attn.v_proj
+2025-03-14 18:54:53,444 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,444 - INFO - model.decoder.layers.9.self_attn.q_proj
+2025-03-14 18:54:53,444 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,444 - INFO - model.decoder.layers.10.self_attn.k_proj
+2025-03-14 18:54:53,444 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,444 - INFO - model.decoder.layers.10.self_attn.v_proj
+2025-03-14 18:54:53,444 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,444 - INFO - model.decoder.layers.10.self_attn.q_proj
+2025-03-14 18:54:53,444 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,444 - INFO - model.decoder.layers.11.self_attn.k_proj
+2025-03-14 18:54:53,444 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,444 - INFO - model.decoder.layers.11.self_attn.v_proj
+2025-03-14 18:54:53,445 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,445 - INFO - model.decoder.layers.11.self_attn.q_proj
+2025-03-14 18:54:53,445 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,445 - INFO - model.decoder.layers.12.self_attn.k_proj
+2025-03-14 18:54:53,445 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,445 - INFO - model.decoder.layers.12.self_attn.v_proj
+2025-03-14 18:54:53,445 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,445 - INFO - model.decoder.layers.12.self_attn.q_proj
+2025-03-14 18:54:53,445 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,445 - INFO - model.decoder.layers.13.self_attn.k_proj
+2025-03-14 18:54:53,445 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,445 - INFO - model.decoder.layers.13.self_attn.v_proj
+2025-03-14 18:54:53,445 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,445 - INFO - model.decoder.layers.13.self_attn.q_proj
+2025-03-14 18:54:53,445 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,445 - INFO - model.decoder.layers.14.self_attn.k_proj
+2025-03-14 18:54:53,445 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,445 - INFO - model.decoder.layers.14.self_attn.v_proj
+2025-03-14 18:54:53,445 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,445 - INFO - model.decoder.layers.14.self_attn.q_proj
+2025-03-14 18:54:53,445 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,445 - INFO - model.decoder.layers.15.self_attn.k_proj
+2025-03-14 18:54:53,445 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,445 - INFO - model.decoder.layers.15.self_attn.v_proj
+2025-03-14 18:54:53,445 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,445 - INFO - model.decoder.layers.15.self_attn.q_proj
+2025-03-14 18:54:53,445 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,445 - INFO - model.decoder.layers.16.self_attn.k_proj
+2025-03-14 18:54:53,445 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,445 - INFO - model.decoder.layers.16.self_attn.v_proj
+2025-03-14 18:54:53,445 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,445 - INFO - model.decoder.layers.16.self_attn.q_proj
+2025-03-14 18:54:53,445 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,445 - INFO - model.decoder.layers.17.self_attn.k_proj
+2025-03-14 18:54:53,445 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,445 - INFO - model.decoder.layers.17.self_attn.v_proj
+2025-03-14 18:54:53,445 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,445 - INFO - model.decoder.layers.17.self_attn.q_proj
+2025-03-14 18:54:53,446 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,446 - INFO - model.decoder.layers.18.self_attn.k_proj
+2025-03-14 18:54:53,446 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,446 - INFO - model.decoder.layers.18.self_attn.v_proj
+2025-03-14 18:54:53,446 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,446 - INFO - model.decoder.layers.18.self_attn.q_proj
+2025-03-14 18:54:53,446 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,446 - INFO - model.decoder.layers.19.self_attn.k_proj
+2025-03-14 18:54:53,446 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,446 - INFO - model.decoder.layers.19.self_attn.v_proj
+2025-03-14 18:54:53,446 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,446 - INFO - model.decoder.layers.19.self_attn.q_proj
+2025-03-14 18:54:53,446 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,446 - INFO - model.decoder.layers.20.self_attn.k_proj
+2025-03-14 18:54:53,446 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,446 - INFO - model.decoder.layers.20.self_attn.v_proj
+2025-03-14 18:54:53,446 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,446 - INFO - model.decoder.layers.20.self_attn.q_proj
+2025-03-14 18:54:53,446 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,446 - INFO - model.decoder.layers.21.self_attn.k_proj
+2025-03-14 18:54:53,446 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,446 - INFO - model.decoder.layers.21.self_attn.v_proj
+2025-03-14 18:54:53,446 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,446 - INFO - model.decoder.layers.21.self_attn.q_proj
+2025-03-14 18:54:53,446 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,446 - INFO - model.decoder.layers.22.self_attn.k_proj
+2025-03-14 18:54:53,446 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,446 - INFO - model.decoder.layers.22.self_attn.v_proj
+2025-03-14 18:54:53,446 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,446 - INFO - model.decoder.layers.22.self_attn.q_proj
+2025-03-14 18:54:53,446 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,446 - INFO - model.decoder.layers.23.self_attn.k_proj
+2025-03-14 18:54:53,446 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,446 - INFO - model.decoder.layers.23.self_attn.v_proj
+2025-03-14 18:54:53,446 - INFO - enable GaLore for weights in module: 
+2025-03-14 18:54:53,446 - INFO - model.decoder.layers.23.self_attn.q_proj
+2025-03-14 18:54:53,450 - INFO - The Optimizer is HMTAdamW
+2025-03-14 18:54:58,590 - INFO - ***** Running training *****
+2025-03-14 18:54:58,590 - INFO -   Num examples = 8551
+2025-03-14 18:54:58,590 - INFO -   Num Epochs = 10
+2025-03-14 18:54:58,590 - INFO -   Instantaneous batch size per device = 16
+2025-03-14 18:54:58,590 - INFO -   Total train batch size (w. parallel, distributed & accumulation) = 16
+2025-03-14 18:54:58,590 - INFO -   Gradient Accumulation steps = 1
+2025-03-14 18:54:58,590 - INFO -   Total optimization steps = 5350
+2025-03-14 18:56:31,922 - INFO - epoch 0: {'matthews_correlation': 0.0}
+2025-03-14 18:58:05,257 - INFO - epoch 1: {'matthews_correlation': np.float64(0.2719735085825945)}
+2025-03-14 18:59:38,744 - INFO - epoch 2: {'matthews_correlation': np.float64(0.19287500880874692)}
+2025-03-14 19:01:12,204 - INFO - epoch 3: {'matthews_correlation': np.float64(0.36717813709667574)}
+2025-03-14 19:02:45,386 - INFO - epoch 4: {'matthews_correlation': np.float64(0.40032442840601)}
+2025-03-14 19:04:18,013 - INFO - epoch 5: {'matthews_correlation': np.float64(0.3943819600110244)}
+2025-03-14 19:05:50,958 - INFO - epoch 6: {'matthews_correlation': np.float64(0.39543011754123186)}
+2025-03-14 19:07:23,880 - INFO - epoch 7: {'matthews_correlation': np.float64(0.3936392866026547)}
+2025-03-14 19:08:56,850 - INFO - epoch 8: {'matthews_correlation': np.float64(0.4563168686809572)}
+2025-03-14 19:10:29,997 - INFO - epoch 9: {'matthews_correlation': np.float64(0.44279138458673917)}
+2025-03-14 19:10:35,513 - INFO - Execution time: 967.74 seconds

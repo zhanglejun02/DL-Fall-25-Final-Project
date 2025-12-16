@@ -1,0 +1,16 @@
+CUDA_VISIBLE_DEVICES=0 python run_squad.py \
+    --model_name_or_path bert-base-cased \
+    --output_dir ./output/bert-base-cased_squad_lotus \
+    --num_train_epochs 3 \
+    --per_device_train_batch_size 16 \
+    --learning_rate 2e-5 \
+    --enable_galore \
+    --lora_r 16 \
+    --optimizer_name Lotus \
+    --update_proj_gap 50 \
+    --galore_scale 2 \
+    --proj_type std \
+    --threshold 0.01 \
+    --check_interval 50 \
+    --proj_method traditional \
+    --weight_decay 0.01
